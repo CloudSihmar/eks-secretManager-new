@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: secret-reader
+  namespace: default
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::874684564003:role/secret-reader
